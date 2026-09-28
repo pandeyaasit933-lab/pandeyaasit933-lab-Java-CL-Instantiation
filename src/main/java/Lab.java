@@ -23,7 +23,7 @@ public class Lab {
      * TODO: return a new Album object.
      */
     public Album labPart1(){
-        return null;
+        return new Album() ;
     }
     /**
      * Let's go over the different parts of the instantiation process.
@@ -44,24 +44,4 @@ public class Lab {
      *      a different process that will be explained later.
      *
      * TODO: Make this method instantiate and return any Object other than Album or String.
-     *      You could use Artist, Song, or even the class "Object"
-     */
-    public Object labPart2(){
-        return null;
-    }
-    /**
-     * Strings (text such as "abc") are technically Objects, but they follow a different process.
-     * It's common to reuse the same String, and there is no difference between identical Strings
-     * like "abc" and "abc", so Java just stores all strings in use in a special memory region
-     * called the "String Pool". Changing a string (eg "abc1") actually just generates a new string
-     * without changing the original ("abc"), and for this reason Strings are technically immutable.
-     *
-     * Therefore, Strings are objects that can be created without the "new" keyword, such as
-     *      String str1 = "abc";
-     *
-     * TODO: return a new String that isn't "abc".
-     */
-    public String labPart3(){
-        return null;
-    }
-}
+     *      You could use Artist, Song,}
